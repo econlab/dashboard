@@ -2,9 +2,9 @@
   "name": "dashboard",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for dashboard goes here",
-  "license": "MIT",
-  "author": "",
+  "description": "Dashboard for EconLab",
+  "license": false,
+  "author": "Miles Zimmerman <miles@econlab.io",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -42,6 +42,6 @@
     "loader.js": "^4.2.3"
   },
   "engines": {
-    "node": "^4.5 || 6.* || >= 7.*"
+    "node": "8.*"
   }
 }
