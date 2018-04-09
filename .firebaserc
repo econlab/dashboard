@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "econlab-dev"
+    "default": "econlab-dev",
+    "staging": "econlab-staging",
+    "production": "econlab-prod"
   }
 }

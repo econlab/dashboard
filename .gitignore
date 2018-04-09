@@ -19,6 +19,10 @@ yarn-error.log
 testem.log
 .DS_Store
 database.rules.json.original
+.env
+.env-*
+/config/.env
+/config/.env-*
 
 # ember-try
 .node_modules.ember-try/

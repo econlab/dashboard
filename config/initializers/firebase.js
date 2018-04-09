@@ -1,9 +1,8 @@
-module.exports = function(environment) {
-  const env = (environment === 'production') ? 'prod' : 'dev';
+module.exports = function(/* environment */) {
   return {
-    apiKey: 'AIzaSyCum5dPtUnxFEQB86o2cj9zsC2m2NpwofQ',
-    authDomain: `econlab-${env}.firebaseapp.com`,
-    databaseURL: `https://econlab-${env}.firebaseio.com`,
-    storageBucket: `econlab-${env}.appspot.com`,
+    apiKey: process.env.FIREBASE_API_KEY,
+    authDomain: `econlab-${process.env.FIREBASE_HOST}.firebaseapp.com`,
+    databaseURL: `https://econlab-${process.env.FIREBASE_HOST}.firebaseio.com`,
+    storageBucket: `econlab-${process.env.FIREBASE_HOST}.appspot.com`,
   };
 };
