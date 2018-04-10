@@ -21,6 +21,7 @@ testem.log
 database.rules.json.original
 .env
 .env-*
+.env.*
 /config/.env
 /config/.env-*
 
