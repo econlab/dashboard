@@ -5,7 +5,7 @@ module.exports = function(deployTarget) {
   let ENV = {
     build: {},
     firebase: {
-      appName: process.env,
+      projectName: `econlab-${deployTarget}`,
       deployToken: process.env.FIREBASE_TOKEN
     }
   };
